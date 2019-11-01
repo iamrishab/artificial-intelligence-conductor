@@ -103,7 +103,7 @@ pytz==2018.5
 PyWavelets==1.0.0
 pywin32==224
 pywinpty==0.5.5
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==17.1.2
 qtconsole==4.4.3
 requests==2.19.1
