@@ -1,0 +1,9 @@
+playsound
+pywin32
+requests
+flask
+opencv-contrib-python
+scipy
+pillow
+requests_futures
+virtualenv

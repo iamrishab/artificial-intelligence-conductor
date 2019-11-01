@@ -1,0 +1,11 @@
+1. code for actual Pic UI
+
+2. code for actual UI for whole Application
+
+3. after sometime if not all the thumsup detected the vehicle will automatically start.
+
+4. after thumbsup again go for FR
+
+5. manual white balance and noise correction im the video
+
+6. May need to code for each face occurring in the frame

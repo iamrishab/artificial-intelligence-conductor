@@ -1,0 +1,3538 @@
+C:\Users\negis\AppData\Local\Programs\Python\Python36\python.exe C:/Projects/ppm/main_api.py
+Loading data from config file...
+Config file loaded
+Loading staff ids...
+Staff id loaded
+Loading face model...
+2018-12-17 15:54:54.371657: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+face model loaded
+Loading gesture model...
+ Try to load cfg: ./gesture/model/yolov3-tiny_3.cfg, weights: ./gesture/model/yolov3-tiny_3_33000.weights, clear = 0
+layer     filters    size              input                output
+   0 conv     16  3 x 3 / 1   416 x 416 x   3   ->   416 x 416 x  16 0.150 BF
+   1 max          2 x 2 / 2   416 x 416 x  16   ->   208 x 208 x  16 0.003 BF
+   2 conv     32  3 x 3 / 1   208 x 208 x  16   ->   208 x 208 x  32 0.399 BF
+   3 max          2 x 2 / 2   208 x 208 x  32   ->   104 x 104 x  32 0.001 BF
+   4 conv     64  3 x 3 / 1   104 x 104 x  32   ->   104 x 104 x  64 0.399 BF
+   5 max          2 x 2 / 2   104 x 104 x  64   ->    52 x  52 x  64 0.001 BF
+   6 conv    128  3 x 3 / 1    52 x  52 x  64   ->    52 x  52 x 128 0.399 BF
+   7 max          2 x 2 / 2    52 x  52 x 128   ->    26 x  26 x 128 0.000 BF
+   8 conv    256  3 x 3 / 1    26 x  26 x 128   ->    26 x  26 x 256 0.399 BF
+   9 max          2 x 2 / 2    26 x  26 x 256   ->    13 x  13 x 256 0.000 BF
+  10 conv    512  3 x 3 / 1    13 x  13 x 256   ->    13 x  13 x 512 0.399 BF
+  11 max          2 x 2 / 1    13 x  13 x 512   ->    13 x  13 x 512 0.000 BF
+  12 conv   1024  3 x 3 / 1    13 x  13 x 512   ->    13 x  13 x1024 1.595 BF
+  13 conv    256  1 x 1 / 1    13 x  13 x1024   ->    13 x  13 x 256 0.089 BF
+  14 conv    512  3 x 3 / 1    13 x  13 x 256   ->    13 x  13 x 512 0.399 BF
+  15 conv     21  1 x 1 / 1    13 x  13 x 512   ->    13 x  13 x  21 0.004 BF
+  16 yolo
+  17 route  13
+  18 conv    128  1 x 1 / 1    13 x  13 x 256   ->    13 x  13 x 128 0.011 BF
+  19 upsample            2x    13 x  13 x 128   ->    26 x  26 x 128
+  20 route  19 8
+  21 conv    256  3 x 3 / 1    26 x  26 x 384   ->    26 x  26 x 256 1.196 BF
+  22 conv     21  1 x 1 / 1    26 x  26 x 256   ->    26 x  26 x  21 0.007 BF
+  23 yolo
+Total BFLOPS 5.449
+
+ seen 64
+Loading weights from ./gesture/model/yolov3-tiny_3_33000.weights...Done!
+No names or labels found
+classes: Using default '2'
+Loaded - names_list: (null), classes = 2
+gesture model loaded
+rfid flag 1
+Return 0
+Return 0
+Return 0
+Return 0
+Return 1
+azure confidence: [0.0]
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([651, 276, 973, 668])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 12
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([651, 262, 973, 675])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 13
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([630, 262, 966, 675])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 14
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([637, 262, 938, 633])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 15
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([658, 290, 924, 612])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 16
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching boxes: []
+Matching ids: ['587c432a-0f2a-4561-a6a1-4c16c14d41b8']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([658, 276, 903, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 17
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([658, 276, 903, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 18
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([665, 276, 917, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 19
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: []
+Last matching boxes: []
+Last Matching ids: []
+Last matching confidence: []
+Face boxes: [array([665, 276, 917, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 20
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 276, 917, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 21
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {'672_276_924_591': [22, 0, False]}
+Face names: {}
+Frame count: 22
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching boxes: [[648, 327, 927, 606]]
+Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Matching confidence: [0.0]
+Last matching names: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['3edb8e05-5a23-4519-918a-c2f1a8acff53']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {'672_276_924_591': [22, 0, True]}
+Face names: {}
+Frame count: 23
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {'672_276_924_591': [22, 0, True]}
+Face names: {}
+Frame count: 24
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 1.0
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 25
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[648, 327, 927, 606]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 26
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 276, 924, 591])]
+Face boxes unknown: {}
+Face names: {}
+Frame count: 27
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 269, 924, 591])]
+Face boxes unknown: {'672_269_924_591': [28, 0, False]}
+Face names: {}
+Frame count: 28
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching boxes: [[669, 339, 891, 561]]
+Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Matching confidence: [0.0]
+Last matching names: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['e3345263-220e-4d70-8f52-923dcef8110e']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 269, 924, 591])]
+Face boxes unknown: {'672_269_924_591': [28, 0, True]}
+Face names: {}
+Frame count: 29
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching boxes: [[690, 336, 912, 558]]
+Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching confidence: [0.0]
+Last matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 269, 924, 591])]
+Face boxes unknown: {'672_269_924_591': [28, 0, True]}
+Face names: {}
+Frame count: 30
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.7706279190451479
+Matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching boxes: [[690, 336, 912, 558]]
+Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching confidence: [0.0]
+Last matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 903, 598])]
+Face boxes unknown: {'637_276_903_598': [31, 0, True]}
+Face names: {}
+Frame count: 31
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching boxes: [[690, 336, 912, 558]]
+Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Matching confidence: [0.0]
+Last matching names: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching boxes: [[669, 339, 891, 561]]
+Last Matching ids: ['69f94cb1-9031-401c-a119-15aef2a74fbc']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 903, 598])]
+Face boxes unknown: {'637_276_903_598': [31, 0, True]}
+Face names: {}
+Frame count: 32
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching boxes: [[681, 333, 918, 570]]
+Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching confidence: [0.0]
+Last matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching boxes: [[690, 336, 912, 558]]
+Last Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 903, 598])]
+Face boxes unknown: {'637_276_903_598': [31, 0, True]}
+Face names: {}
+Frame count: 33
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9525171624713958
+Matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching boxes: [[681, 333, 918, 570]]
+Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching confidence: [0.0]
+Last matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching boxes: [[690, 336, 912, 558]]
+Last Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 598])]
+Face boxes unknown: {'637_283_896_598': [34, 0, True]}
+Face names: {}
+Frame count: 34
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching boxes: [[681, 333, 918, 570]]
+Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Matching confidence: [0.0]
+Last matching names: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching boxes: [[690, 336, 912, 558]]
+Last Matching ids: ['f00f5826-1828-48d6-8f8f-959cd67e2d8c']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 598])]
+Face boxes unknown: {'637_283_896_598': [34, 0, True]}
+Face names: {}
+Frame count: 35
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching boxes: [[654, 336, 888, 570]]
+Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching confidence: [0.0]
+Last matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching boxes: [[681, 333, 918, 570]]
+Last Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 598])]
+Face boxes unknown: {'637_283_896_598': [34, 0, True]}
+Face names: {}
+Frame count: 36
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching boxes: [[654, 336, 888, 570]]
+Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching confidence: [0.0]
+Last matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching boxes: [[681, 333, 918, 570]]
+Last Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 598])]
+Face boxes unknown: {'637_283_896_598': [34, 0, True]}
+Face names: {}
+Frame count: 37
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9108683151236343
+Matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching boxes: [[654, 336, 888, 570]]
+Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Matching confidence: [0.0]
+Last matching names: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching boxes: [[681, 333, 918, 570]]
+Last Matching ids: ['6ee2c489-84a3-4b52-b328-2f79621af301']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 269, 889, 591])]
+Face boxes unknown: {'637_269_889_591': [38, 0, True]}
+Face names: {}
+Frame count: 38
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[654, 336, 888, 570]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 269, 889, 591])]
+Face boxes unknown: {'637_269_889_591': [38, 0, True]}
+Face names: {}
+Frame count: 39
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[654, 336, 888, 570]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 269, 889, 591])]
+Face boxes unknown: {'637_269_889_591': [38, 0, True]}
+Face names: {}
+Frame count: 40
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9782608695652174
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[654, 336, 888, 570]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 889, 591]), array([1771,  206, 1918,  409])]
+Face boxes unknown: {'637_276_889_591': [41, 0, True]}
+Face names: {}
+Frame count: 41
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 889, 591]), array([1771,  206, 1918,  409])]
+Face boxes unknown: {'637_276_889_591': [41, 0, True]}
+Face names: {}
+Frame count: 42
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 276, 889, 591]), array([1771,  206, 1918,  409])]
+Face boxes unknown: {'637_276_889_591': [41, 0, True]}
+Face names: {}
+Frame count: 43
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9108683151236343
+Matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching boxes: [[657, 342, 879, 564]]
+Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Matching confidence: [0.0]
+Last matching names: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['66c56aa0-4bb7-45b8-b6f5-67001bc2c1a5']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 605])]
+Face boxes unknown: {'637_283_896_605': [44, 0, True]}
+Face names: {}
+Frame count: 44
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching confidence: [0.0]
+Last matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 896, 605])]
+Face boxes unknown: {'637_283_896_605': [44, 0, True]}
+Face names: {}
+Frame count: 45
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9306698002350177
+Matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching confidence: [0.0]
+Last matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 889, 591])]
+Face boxes unknown: {'637_283_889_591': [46, 0, True]}
+Face names: {}
+Frame count: 46
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Matching confidence: [0.0]
+Last matching names: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching boxes: [[657, 342, 879, 564]]
+Last Matching ids: ['9a1970ef-e2c8-4c17-bedd-58efe91828ba']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 889, 591])]
+Face boxes unknown: {'637_283_889_591': [46, 0, True]}
+Face names: {}
+Frame count: 47
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 283, 889, 591])]
+Face boxes unknown: {'637_283_889_591': [46, 0, True]}
+Face names: {}
+Frame count: 48
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.5178813942960616
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 283, 819, 612])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 49
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 283, 819, 612])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 50
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 283, 819, 612])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 51
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 283, 819, 612])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 52
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching boxes: [[648, 339, 879, 570]]
+Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Matching confidence: [0.0]
+Last matching names: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['5a985e01-ca38-4ee1-9ba8-dfa162549294']
+Last matching confidence: [0.0]
+Face boxes: [array([518, 290, 791, 619])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 53
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching boxes: [[645, 342, 876, 573]]
+Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching confidence: [0.0]
+Last matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching confidence: [0.0]
+Face boxes: [array([518, 290, 791, 619])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 54
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching boxes: [[645, 342, 876, 573]]
+Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching confidence: [0.0]
+Last matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching confidence: [0.0]
+Face boxes: [array([518, 290, 791, 619])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 55
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching boxes: [[645, 342, 876, 573]]
+Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Matching confidence: [0.0]
+Last matching names: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching boxes: [[648, 339, 879, 570]]
+Last Matching ids: ['59c68e28-b837-400c-9ee8-a76d22cefa17']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 290, 854, 605])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 56
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[645, 342, 876, 573]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 290, 854, 605])]
+Face boxes unknown: {'560_283_819_612': [49, 0, True]}
+Face names: {}
+Frame count: 57
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.4130162703379224
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[645, 342, 876, 573]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 297, 917, 612])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 58
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[645, 342, 876, 573]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 297, 917, 612])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 59
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 297, 917, 612])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 60
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 290, 924, 619])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 61
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching boxes: [[540, 354, 774, 588]]
+Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Matching confidence: [0.0]
+Last matching names: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['d6cbd336-9566-44d0-a001-cd2d78b58f9a']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 290, 924, 619])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 62
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching boxes: [[612, 351, 843, 582]]
+Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching confidence: [0.0]
+Last matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 290, 924, 619])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 63
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching boxes: [[612, 351, 843, 582]]
+Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching confidence: [0.0]
+Last matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 290, 924, 619])]
+Face boxes unknown: {'665_297_917_612': [58, 0, True]}
+Face names: {}
+Frame count: 64
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9070548712206047
+Matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching boxes: [[612, 351, 843, 582]]
+Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Matching confidence: [0.0]
+Last matching names: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching boxes: [[540, 354, 774, 588]]
+Last Matching ids: ['b35c8111-d2ef-4a0f-becd-04ac77e643f6']
+Last matching confidence: [0.0]
+Face boxes: [array([322, 255, 616, 605])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 65
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching boxes: [[669, 351, 909, 591]]
+Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching confidence: [0.0]
+Last matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching boxes: [[612, 351, 843, 582]]
+Last Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching confidence: [0.0]
+Face boxes: [array([322, 255, 616, 605])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 66
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching boxes: [[669, 351, 909, 591]]
+Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching confidence: [0.0]
+Last matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching boxes: [[612, 351, 843, 582]]
+Last Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 318, 259, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 67
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching boxes: [[669, 351, 909, 591]]
+Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Matching confidence: [0.0]
+Last matching names: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching boxes: [[612, 351, 843, 582]]
+Last Matching ids: ['6dd381eb-a73f-4a56-89d3-e060572962d8']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 318, 259, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 68
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[669, 351, 909, 591]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 318, 259, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 69
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[669, 351, 909, 591]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 70
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[669, 351, 909, 591]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 71
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 72
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 73
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching boxes: [[345, 321, 606, 582]]
+Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Matching confidence: [0.0]
+Last matching names: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['408be7d3-6f1d-415c-a57d-4d9298cd0992']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 74
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 75
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 76
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[345, 321, 606, 582]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 77
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 78
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 79
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 80
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 81
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 82
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 83
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 84
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 85
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 86
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 87
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 88
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 89
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 90
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 91
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 92
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 93
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 94
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 95
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 96
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 97
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 98
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 99
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 100
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 101
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 102
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 103
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 104
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 105
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 106
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 107
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 108
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 109
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 110
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 111
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 112
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 113
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 114
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 115
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 116
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 117
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 118
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 119
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 120
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 121
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 122
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 123
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 124
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 125
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 126
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 127
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 128
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 129
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 130
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 131
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 132
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 133
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 134
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 135
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 136
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 137
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 138
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 139
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 140
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 141
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 142
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 143
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 144
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 145
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 146
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 147
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 148
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 149
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 150
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 151
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 152
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 153
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 154
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 155
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 156
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 360, 168, 605])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 157
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 360, 168, 605])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 158
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: [array([  0, 360, 168, 605])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True]}
+Face names: {}
+Frame count: 159
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.2
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: [array([210, 409, 413, 640])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, False]}
+Face names: {}
+Frame count: 160
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching boxes: [[21, 372, 258, 609]]
+Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Matching confidence: [0.0]
+Last matching names: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['a5639810-a614-4544-86d7-1f403ebcff45']
+Last matching confidence: [0.0]
+Face boxes: [array([210, 409, 413, 640])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 161
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching boxes: [[0, 414, 144, 591]]
+Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching confidence: [0.0]
+Last matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching confidence: [0.0]
+Face boxes: [array([210, 409, 413, 640])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 162
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching boxes: [[0, 414, 144, 591]]
+Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching confidence: [0.0]
+Last matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching confidence: [0.0]
+Face boxes: [array([448, 416, 637, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 163
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching boxes: [[0, 414, 144, 591]]
+Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Matching confidence: [0.0]
+Last matching names: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching boxes: [[21, 372, 258, 609]]
+Last Matching ids: ['f52bc5f1-2f4d-43f3-956d-4f38485b6fde']
+Last matching confidence: [0.0]
+Face boxes: [array([448, 416, 637, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 164
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[0, 414, 144, 591]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([448, 416, 637, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 165
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[0, 414, 144, 591]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 742, 626])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 166
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[0, 414, 144, 591]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 742, 626])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 167
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 742, 626])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 168
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([567, 402, 756, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 169
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching boxes: [[231, 456, 393, 618]]
+Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Matching confidence: [0.0]
+Last matching names: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['cffa259b-b109-4fc8-b28e-534286dde8b4']
+Last matching confidence: [0.0]
+Face boxes: [array([567, 402, 756, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 170
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching boxes: [[468, 462, 615, 609]]
+Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching confidence: [0.0]
+Last matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching confidence: [0.0]
+Face boxes: [array([567, 402, 756, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 171
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching boxes: [[468, 462, 615, 609]]
+Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching confidence: [0.0]
+Last matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 749, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 172
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching boxes: [[468, 462, 615, 609]]
+Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Matching confidence: [0.0]
+Last matching names: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching boxes: [[231, 456, 393, 618]]
+Last Matching ids: ['57b89540-dd9e-4751-90a0-26a46c1bf99d']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 749, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 173
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[468, 462, 615, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 749, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 174
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[468, 462, 615, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([560, 395, 749, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True]}
+Face names: {}
+Frame count: 175
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.2007843137254902
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[468, 462, 615, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([574, 395, 770, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '574_395_770_647': [176, 0, False]}
+Face names: {}
+Frame count: 176
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([574, 395, 770, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '574_395_770_647': [176, 0, True]}
+Face names: {}
+Frame count: 177
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.6683046683046683
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 409, 805, 654])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 178
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching boxes: [[579, 447, 741, 609]]
+Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Matching confidence: [0.0]
+Last matching names: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['6ba31292-1363-4b78-8ae7-cea0c6f816a5']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 409, 805, 654])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 179
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching boxes: [[573, 450, 732, 609]]
+Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching confidence: [0.0]
+Last matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 409, 805, 654])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 180
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching boxes: [[573, 450, 732, 609]]
+Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching confidence: [0.0]
+Last matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching confidence: [0.0]
+Face boxes: [array([644, 388, 847, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 181
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching boxes: [[573, 450, 732, 609]]
+Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Matching confidence: [0.0]
+Last matching names: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching boxes: [[579, 447, 741, 609]]
+Last Matching ids: ['fe301746-a7ac-4c05-9d82-45dcfb7d19f4']
+Last matching confidence: [0.0]
+Face boxes: [array([644, 388, 847, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 182
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching boxes: [[627, 456, 798, 627]]
+Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching confidence: [0.0]
+Last matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching boxes: [[573, 450, 732, 609]]
+Last Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching confidence: [0.0]
+Face boxes: [array([644, 388, 847, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 183
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching boxes: [[627, 456, 798, 627]]
+Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching confidence: [0.0]
+Last matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching boxes: [[573, 450, 732, 609]]
+Last Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching confidence: [0.0]
+Face boxes: [array([644, 388, 847, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '602_409_805_654': [178, 0, True]}
+Face names: {}
+Frame count: 184
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.5078236130867709
+Matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching boxes: [[627, 456, 798, 627]]
+Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Matching confidence: [0.0]
+Last matching names: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching boxes: [[573, 450, 732, 609]]
+Last Matching ids: ['f7ed0327-03d2-432f-9cf3-193470f5acec']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 388, 861, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '658_388_861_647': [185, 0, True]}
+Face names: {}
+Frame count: 185
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[627, 456, 798, 627]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([658, 388, 861, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '658_388_861_647': [185, 0, True]}
+Face names: {}
+Frame count: 186
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.9333333333333333
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[627, 456, 798, 627]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 388, 868, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '665_388_868_647': [187, 0, True]}
+Face names: {}
+Frame count: 187
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[627, 456, 798, 627]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 388, 868, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '665_388_868_647': [187, 0, True]}
+Face names: {}
+Frame count: 188
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([665, 388, 868, 647])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '665_388_868_647': [187, 0, True]}
+Face names: {}
+Frame count: 189
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.8105872622001654
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 374, 882, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True]}
+Face names: {}
+Frame count: 190
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching boxes: [[666, 456, 831, 621]]
+Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Matching confidence: [0.0]
+Last matching names: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['12d0b140-3413-45da-acc7-15a8fe357a2d']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 374, 882, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True]}
+Face names: {}
+Frame count: 191
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching boxes: [[675, 447, 852, 624]]
+Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching confidence: [0.0]
+Last matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching confidence: [0.0]
+Face boxes: [array([672, 374, 882, 633])]
+Face boxes unknown: {'658_290_924_619': [65, 0, True], '0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True]}
+Face names: {}
+Frame count: 192
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.734602463605823
+Matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching boxes: [[675, 447, 852, 624]]
+Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching confidence: [0.0]
+Last matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching confidence: [0.0]
+Face boxes: [array([679, 332, 903, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '679_332_903_619': [193, 0, True]}
+Face names: {}
+Frame count: 193
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching boxes: [[675, 447, 852, 624]]
+Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Matching confidence: [0.0]
+Last matching names: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching boxes: [[666, 456, 831, 621]]
+Last Matching ids: ['817f5c52-332c-4813-b053-c925424d6cb2']
+Last matching confidence: [0.0]
+Face boxes: [array([679, 332, 903, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '679_332_903_619': [193, 0, True]}
+Face names: {}
+Frame count: 194
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[675, 447, 852, 624]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([679, 332, 903, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '679_332_903_619': [193, 0, True]}
+Face names: {}
+Frame count: 195
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.8055555555555556
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[675, 447, 852, 624]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([700, 332, 931, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '700_332_931_619': [196, 0, True]}
+Face names: {}
+Frame count: 196
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[675, 447, 852, 624]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([700, 332, 931, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '700_332_931_619': [196, 0, True]}
+Face names: {}
+Frame count: 197
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([700, 332, 931, 619])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '700_332_931_619': [196, 0, True]}
+Face names: {}
+Frame count: 198
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.47120708748615725
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([770, 318, 994, 591])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 199
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching boxes: [[687, 426, 870, 609]]
+Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Matching confidence: [0.0]
+Last matching names: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['cacce666-e530-4870-9f60-1ab26e07ebfe']
+Last matching confidence: [0.0]
+Face boxes: [array([770, 318, 994, 591])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 200
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching boxes: [[690, 402, 885, 597]]
+Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching confidence: [0.0]
+Last matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching confidence: [0.0]
+Face boxes: [array([770, 318, 994, 591])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 201
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching boxes: [[690, 402, 885, 597]]
+Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching confidence: [0.0]
+Last matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching confidence: [0.0]
+Face boxes: [array([728, 290, 973, 598])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 202
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching boxes: [[690, 402, 885, 597]]
+Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Matching confidence: [0.0]
+Last matching names: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching boxes: [[687, 426, 870, 609]]
+Last Matching ids: ['7bc83cdc-a909-45a0-920a-6a0937e050c3']
+Last matching confidence: [0.0]
+Face boxes: [array([728, 290, 973, 598])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 203
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching boxes: [[780, 366, 981, 567]]
+Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching confidence: [0.0]
+Last matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching boxes: [[690, 402, 885, 597]]
+Last Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching confidence: [0.0]
+Face boxes: [array([728, 290, 973, 598])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '672_374_882_633': [190, 0, True], '770_318_994_591': [199, 0, True]}
+Face names: {}
+Frame count: 204
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.5808477237048666
+Matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching boxes: [[780, 366, 981, 567]]
+Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching confidence: [0.0]
+Last matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching boxes: [[690, 402, 885, 597]]
+Last Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 290, 882, 633])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 205
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching boxes: [[780, 366, 981, 567]]
+Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Matching confidence: [0.0]
+Last matching names: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching boxes: [[690, 402, 885, 597]]
+Last Matching ids: ['a8c47f17-8d6b-415f-b98e-5b4464f8febb']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 290, 882, 633])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 206
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching boxes: [[744, 357, 957, 570]]
+Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching confidence: [0.0]
+Last matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching boxes: [[780, 366, 981, 567]]
+Last Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 290, 882, 633])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 207
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching boxes: [[744, 357, 957, 570]]
+Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching confidence: [0.0]
+Last matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching boxes: [[780, 366, 981, 567]]
+Last Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 248, 882, 577])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 208
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching boxes: [[744, 357, 957, 570]]
+Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Matching confidence: [0.0]
+Last matching names: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching boxes: [[780, 366, 981, 567]]
+Last Matching ids: ['2a7c22f6-7f1b-42a7-8ca4-d7576c2400fe']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 248, 882, 577])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 209
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[744, 357, 957, 570]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([609, 248, 882, 577])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True]}
+Face names: {}
+Frame count: 210
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.39420289855072466
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[744, 357, 957, 570]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([ 714,  171, 1036,  556])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, False]}
+Face names: {}
+Frame count: 211
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[744, 357, 957, 570]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([ 714,  171, 1036,  556])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 212
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([ 714,  171, 1036,  556])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 213
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([ 714,  171, 1036,  556])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 214
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching boxes: [[621, 360, 858, 597]]
+Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Matching confidence: [0.0]
+Last matching names: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['3f3a9aef-7ad6-4ecf-ac85-e148093388cd']
+Last matching confidence: [0.0]
+Face boxes: [array([ 819,  171, 1155,  584])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 215
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching boxes: [[618, 309, 858, 549]]
+Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching confidence: [0.0]
+Last matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching confidence: [0.0]
+Face boxes: [array([ 819,  171, 1155,  584])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 216
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching boxes: [[618, 309, 858, 549]]
+Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching confidence: [0.0]
+Last matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 234, 966, 640])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 217
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching boxes: [[618, 309, 858, 549]]
+Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Matching confidence: [0.0]
+Last matching names: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching boxes: [[621, 360, 858, 597]]
+Last Matching ids: ['ad16ecfb-e55e-45ce-8b4e-39e829e7bd3b']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 234, 966, 640])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 218
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching boxes: [[849, 240, 1158, 549]]
+Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching confidence: [0.0]
+Last matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching boxes: [[618, 309, 858, 549]]
+Last Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching confidence: [0.0]
+Face boxes: [array([637, 234, 966, 640])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 219
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching boxes: [[849, 240, 1158, 549]]
+Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching confidence: [0.0]
+Last matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching boxes: [[618, 309, 858, 549]]
+Last Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching confidence: [0.0]
+Face boxes: [array([546, 297, 868, 703])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 220
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching boxes: [[849, 240, 1158, 549]]
+Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Matching confidence: [0.0]
+Last matching names: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching boxes: [[618, 309, 858, 549]]
+Last Matching ids: ['c3594ddd-b0d6-4c63-be39-7c16fc5baeb2']
+Last matching confidence: [0.0]
+Face boxes: [array([546, 297, 868, 703])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 221
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching boxes: [[663, 306, 960, 603]]
+Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching confidence: [0.0]
+Last matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching boxes: [[849, 240, 1158, 549]]
+Last Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching confidence: [0.0]
+Face boxes: [array([546, 297, 868, 703])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 222
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching boxes: [[663, 306, 960, 603]]
+Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching confidence: [0.0]
+Last matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching boxes: [[849, 240, 1158, 549]]
+Last Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching confidence: [0.0]
+Face boxes: [array([546, 297, 868, 703])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 223
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching boxes: [[663, 306, 960, 603]]
+Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Matching confidence: [0.0]
+Last matching names: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching boxes: [[849, 240, 1158, 549]]
+Last Matching ids: ['cfbaca7a-5c82-4a60-abb0-34eb1ef38d72']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 290, 917, 689])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 224
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[663, 306, 960, 603]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: [array([602, 290, 917, 689])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True]}
+Face names: {}
+Frame count: 225
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.32447552447552447
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[663, 306, 960, 603]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: [array([ 700,  388, 1008,  773])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, False]}
+Face names: {}
+Frame count: 226
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[663, 306, 960, 603]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: [array([ 700,  388, 1008,  773])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 227
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: [array([ 700,  388, 1008,  773])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 228
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 229
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching boxes: [[570, 381, 870, 681]]
+Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Matching confidence: [0.0]
+Last matching names: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['c5771ac6-f284-4485-962b-8e63fb109db5']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 230
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: []
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 231
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 602,  360, 1029,  899])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 232
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[570, 381, 870, 681]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 602,  360, 1029,  899])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 233
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 602,  360, 1029,  899])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '700_388_1008_773': [226, 0, True]}
+Face names: {}
+Frame count: 234
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.5152224824355972
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 546,  108, 1106,  493])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 235
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 546,  108, 1106,  493])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 236
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 0
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 546,  108, 1106,  493])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 237
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 525,  108, 1071,  794])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 238
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching boxes: [[603, 354, 915, 666]]
+Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Matching confidence: [0.0]
+Last matching names: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['e1913c6d-698f-44a2-8f4d-702c51779d67']
+Last matching confidence: [0.0]
+Face boxes: [array([ 525,  108, 1071,  794])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 239
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching boxes: [[603, 468, 996, 861]]
+Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching confidence: [0.0]
+Last matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching confidence: [0.0]
+Face boxes: [array([ 525,  108, 1071,  794])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 240
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching boxes: [[603, 468, 996, 861]]
+Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching confidence: [0.0]
+Last matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching confidence: [0.0]
+Face boxes: [array([ 525,  108, 1071,  794])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 241
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching boxes: [[603, 468, 996, 861]]
+Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Matching confidence: [0.0]
+Last matching names: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching boxes: [[603, 354, 915, 666]]
+Last Matching ids: ['a931ce85-c6d4-4ff5-b36f-3752e176cae6']
+Last matching confidence: [0.0]
+Face boxes: [array([ 574,  108, 1092,  766])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 242
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching boxes: [[543, 237, 1059, 753]]
+Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching confidence: [0.0]
+Last matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching boxes: [[603, 468, 996, 861]]
+Last Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching confidence: [0.0]
+Face boxes: [array([ 574,  108, 1092,  766])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True]}
+Face names: {}
+Frame count: 243
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.38147492625368734
+Matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching boxes: [[543, 237, 1059, 753]]
+Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching confidence: [0.0]
+Last matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching boxes: [[603, 468, 996, 861]]
+Last Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching confidence: [0.0]
+Face boxes: [array([ 553,  108, 1078,  731])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '553_108_1078_731': [244, 0, False]}
+Face names: {}
+Frame count: 244
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching boxes: [[543, 237, 1059, 753]]
+Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Matching confidence: [0.0]
+Last matching names: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching boxes: [[603, 468, 996, 861]]
+Last Matching ids: ['a42a3c2f-d980-4b4e-a1f2-603a2928dbc1']
+Last matching confidence: [0.0]
+Face boxes: [array([ 553,  108, 1078,  731])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '553_108_1078_731': [244, 0, True]}
+Face names: {}
+Frame count: 245
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching boxes: [[579, 258, 1080, 759]]
+Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching confidence: [0.0]
+Last matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching boxes: [[543, 237, 1059, 753]]
+Last Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching confidence: [0.0]
+Face boxes: [array([ 553,  108, 1078,  731])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '553_108_1078_731': [244, 0, True]}
+Face names: {}
+Frame count: 246
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Unknown max iou: 0.8479651558459235
+Matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching boxes: [[579, 258, 1080, 759]]
+Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching confidence: [0.0]
+Last matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching boxes: [[543, 237, 1059, 753]]
+Last Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching confidence: [0.0]
+Face boxes: [array([ 588,  108, 1106,  759])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '588_108_1106_759': [247, 0, True]}
+Face names: {}
+Frame count: 247
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching boxes: [[579, 258, 1080, 759]]
+Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Matching confidence: [0.0]
+Last matching names: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching boxes: [[543, 237, 1059, 753]]
+Last Matching ids: ['89434954-367d-4bdb-8d96-130c364f826c']
+Last matching confidence: [0.0]
+Face boxes: [array([ 588,  108, 1106,  759])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '588_108_1106_759': [247, 0, True]}
+Face names: {}
+Frame count: 248
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Return 1
+azure confidence: [0.0]
+Matching names: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Matching boxes: [[561, 225, 1053, 717]]
+Matching ids: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Matching confidence: [0.0]
+Last matching names: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Last matching boxes: [[579, 258, 1080, 759]]
+Last Matching ids: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Last matching confidence: [0.0]
+Face boxes: [array([ 588,  108, 1106,  759])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '588_108_1106_759': [247, 0, True]}
+Face names: {}
+Frame count: 249
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+Matching names: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Matching boxes: [[561, 225, 1053, 717]]
+Matching ids: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Matching confidence: [0.0]
+Last matching names: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Last matching boxes: [[579, 258, 1080, 759]]
+Last Matching ids: ['9fc55ad9-7543-4657-a1c0-8169fa9011bc']
+Last matching confidence: [0.0]
+Face boxes: [array([ 588,  108, 1106,  759])]
+Face boxes unknown: {'0_360_168_605': [160, 0, True], '770_318_994_591': [199, 0, True], '609_290_882_633': [205, 0, True], '714_171_1036_556': [211, 0, True], '602_360_1029_899': [235, 0, True], '588_108_1106_759': [247, 0, True]}
+Face names: {}
+Frame count: 250
+Staff: {}
+Staff ids: ['bb73c927-4b0c-400c-b817-cdcaf9070635']
+
+Process finished with exit code 0
