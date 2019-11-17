@@ -1,32 +1,39 @@
-##Installing the packages
-1.	Download the “ppm-can” repository from the bitbucket link.
+# Artificial Intelligence Conductor for Autonomous Golf Cart.
+
+This is an conductor for autononomus golf cart which does Face Recognition and Gesture Recognition for identifying passengers and their actions in order to move around without the need of an actual driver.
+
+The code is tested on Windows 10 with Python 3 only.
+
+## Installing the packages
+1.Download the this repository.
 2. Double click on the "install.bat" file.
 3. This will install all the required packages for our application.
 
-##Creating the application shortcut
-1.	Download the “ppm-can” repository from the bitbucket link.
+## Creating the application shortcut
 2.	Create a desktop shortcut of the “app.bat” file from the repository folder.
-3.	Rename the shortcut to “ppm”.
+3.	Rename the shortcut to “aic”.
 4.	Change the application icon to the “app.ico” file located in images folder in the repository.
 5.	Create a desktop shortcut of the “start_can.bat” file from the repository folder.
 6.	Rename the shortcut to “can”.
 7.	Change the application icon to the “can.ico” file located in images folder in the repository.
 
-##Starting the application
-1.	Double click on the icon on the desktop named “ppm” with PPM icon to start the application.
+## Starting the application
+1.	Double click on the icon on the desktop named “aic” with PPM icon to start the application.
 2.	The application takes 1 – 1.25 minutes to start. Please do not interrupt the application when its starting. 
-Stopping the application
 
+## Stopping the application
 1.	At first click on the application screen.
-2.	Turn on the Caps Lock by pressing the “Caps” key on the keyboard.
-3.	Then Press “Q”.
+2.	Then Press "Shift" + “Q”.
 4.	The application will quit.
 
-##Assumptions/State change
+## Assumptions/State change
+* FR = Face Recognitino
+* GR = Gesture Recognition
 * RFID 1/3 – START
 * RFID 2/4 – STOP
 * FR – Face Recognition
 * GR – Gesture Recognition
+
 1.	When vehicle will hit RFID 1, 2, 3, 4. It will stop automatically.
 2.	When we get RFID-1 and RFID-3, FR/GR will start automatically (depends on the configuration of the application).
 3.	When we get RFID-2 and RFID-4, application will reset and reach and idle state until the vehicle reaches any start RFID.
