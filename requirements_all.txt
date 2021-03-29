@@ -89,7 +89,7 @@ pycparser==2.19
 pyflakes==2.0.0
 pyftpdlib==1.5.4
 pygame==1.9.4
-Pygments==2.3.0
+Pygments==2.7.4
 pylint==2.1.1
 pymongo==3.7.2
 pyparsing==2.2.0
